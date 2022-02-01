@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="DaIbq{P2G6JBr#8?a]rp">Health</variable></variables><block type="pxt-on-start" id="K%8H0IJ;.}A-Thf)hIuL" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="s=;uIo:9EtZ@inoMwg/@"><field name="VAR" id="DaIbq{P2G6JBr#8?a]rp">Health</field><value name="VALUE"><shadow type="math_number" id="lvKfY8BGUv_l$xqVSUY@"><field name="NUM">10</field></shadow></value></block></statement></block><block type="device_forever" id="O!U6YjN=3A4-FH$k9thY" x="263" y="3"><statement name="HANDLER"><block type="device_show_leds" id="M+Ri!EIm*aHC_VZe,,f?"><field name="LEDS">`
+        . # # . . 
+        . . . . # 
+        # . . # . 
+        . # # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="E;gUusozi{Ryn{!e!3j!"><field name="LEDS">`
+        . . . . . 
+        . . # # . 
+        . . . . . 
+        . . # # # 
+        . # . . #
+        `</field><next><block type="device_show_leds" id="K.v$_ONR]=J*4uG8sMPW"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".V!3^oH8D+)SWQ.B0X1V"><field name="LEDS">`
+        . # . # . 
+        . . # . . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="controls_if" id="ZWy+X!(Qh:4+99)C{b0x"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="B=WzuN_fy~jk2F_*Mt/U"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id=".Y7ns^Ba3a*`)u3f=[C1"><field name="VAR" id="DaIbq{P2G6JBr#8?a]rp">Health</field></block></value><value name="B"><shadow type="math_number" id="_tAvfg+KY)|Ow:}fy@nP"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Thjlcsy|{kkOj)TRcs@%"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="wHFAV?OOC*5s^}`ZGq8U"><value name="pause"><shadow type="timePicker" id=".lSSJZMRm1FNfjmUwrbl"><field name="ms">2000</field></shadow></value><next><block type="device_print_message" id="HZ]s1:,D}fN~2(bq]H{S"><value name="text"><shadow type="text" id="nB?Gup^/)c]m/jGVbWp,"><field name="TEXT">You Dead FOO</field></shadow></value></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="%?7Dzyb+[xQS)(,s4xvd" x="641" y="168"><statement name="HANDLER"><block type="variables_change" id="bXmflfLxc^X6$,u=-k2n"><field name="VAR" id="DaIbq{P2G6JBr#8?a]rp">Health</field><value name="VALUE"><shadow type="math_number" id="EESdx$lM$IZgwy}5YYcc"><field name="NUM">-1</field></shadow></value><next><block type="device_pause" id="@$c-5w./1f3/*Kb*E4YE"><value name="pause"><shadow type="timePicker" id="yu[$?,9f!kv]o:su;N$:"><field name="ms">2000</field></shadow></value></block></next></block></statement></block></xml>
